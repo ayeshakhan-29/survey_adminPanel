@@ -1,7 +1,6 @@
 /*eslint-disable*/
 import React, { useEffect, useState } from 'react';
 import { db } from '../../Firebase/Firebase';
-
 import { collection, getDocs, doc, deleteDoc } from 'firebase/firestore';
 
 const Responses = () => {
