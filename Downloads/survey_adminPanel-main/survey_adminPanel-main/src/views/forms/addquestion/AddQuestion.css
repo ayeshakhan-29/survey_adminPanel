@@ -1,0 +1,70 @@
+/* AddQuestion.css */
+.question-form {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-form label {
+  display: block;
+  margin-top: 10px;
+  width: 75%; /* Set the input fields to 75% of the screen width */
+}
+
+.question-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.question-form ul {
+  list-style: disc inside;
+  margin-top: 10px;
+}
+
+.question-form li {
+  margin-top: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center-align the buttons */
+  margin-top: 20px; /* Adjust this margin for spacing between input fields and buttons */
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #007acc;
+}
+
+.add-option-button,
+.add-question-button {
+  background-color: #007acc;
+  color: white;
+  padding: 8px 24px; /* Adjust the padding for button size */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.add-option-button:hover,
+.add-question-button:hover {
+  background-color: #007acc;
+}
+
+.button-space {
+  width: 10px; /* Adjust the space width as needed */
+}
