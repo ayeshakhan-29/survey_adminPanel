@@ -1,3 +1,4 @@
+/* eslint-disable */
 import PropTypes from 'prop-types'
 import React from 'react'
 import { CLink } from '@coreui/react'
@@ -25,7 +26,7 @@ const DocsLink = (props) => {
 DocsLink.propTypes = {
   href: PropTypes.string,
   name: PropTypes.string,
-  text: PropTypes.string,
+  text: PropTypes.string
 }
 
 export default React.memo(DocsLink)

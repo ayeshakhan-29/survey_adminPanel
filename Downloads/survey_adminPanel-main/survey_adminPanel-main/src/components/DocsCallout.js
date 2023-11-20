@@ -32,7 +32,7 @@ const DocsCallout = (props) => {
 DocsCallout.propTypes = {
   content: PropTypes.string,
   href: PropTypes.string,
-  name: PropTypes.string,
+  name: PropTypes.string
 }
 
 export default React.memo(DocsCallout)

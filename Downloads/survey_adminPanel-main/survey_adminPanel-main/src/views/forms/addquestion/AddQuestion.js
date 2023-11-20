@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import {  addDoc, collection, doc, getDocs, setDoc  } from 'firebase/firestore';
 import { db } from '../../../Firebase/Firebase'; // Import your Firebase initialization
 import './AddQuestion.css';
-s
+
 const AddQuestion = () => {
   const [question, setQuestion] = useState('');
   const [options, setOptions] = useState([]);

@@ -27,7 +27,7 @@ export const AppSidebarNav = ({ items }) => {
       <Component
         {...(rest.to &&
           !rest.items && {
-            component: NavLink,
+            component: NavLink
           })}
         key={index}
         {...rest}
@@ -48,7 +48,7 @@ export const AppSidebarNav = ({ items }) => {
         {...rest}
       >
         {item.items?.map((item, index) =>
-          item.items ? navGroup(item, index) : navItem(item, index),
+          item.items ? navGroup(item, index) : navItem(item, index)
         )}
       </Component>
     )
@@ -63,5 +63,5 @@ export const AppSidebarNav = ({ items }) => {
 }
 
 AppSidebarNav.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.any).isRequired,
+  items: PropTypes.arrayOf(PropTypes.any).isRequired
 }
